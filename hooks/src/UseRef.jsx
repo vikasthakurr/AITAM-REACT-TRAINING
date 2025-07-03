@@ -25,7 +25,7 @@ const UseRef = () => {
       <button ref={a} onClick={increse}>
         Increase
       </button>
-      <p>this is the demo text in para</p>
+      <p ref={a}>this is the demo text in para</p>
     </div>
   );
 };
