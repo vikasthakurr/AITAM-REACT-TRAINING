@@ -14,7 +14,7 @@ server.get("/", (req, res) => {
 
 mongoose
   .connect(
-    "mongodb+srv://vikaskumar20012001:vikas1234@aitam.ymor7qe.mongodb.net/connection"
+    ""
   )
   .then(() => {
     console.log("connection successful");
